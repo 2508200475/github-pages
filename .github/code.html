@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Budi Jaya - Toko Sembako Terpercaya" />
+  <title>Budi Jaya - Toko Sembako</title>
+  <style>
+    /* Simple easy-to-read CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #fefefe;
+      color: #333;
+      line-height: 1.5;
+    }
+    header {
+      background-color: #4caf50;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    nav {
+      background-color: #388e3c;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0.8rem 1.2rem;
+      display: block;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #2e7d32;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    section h2 {
+      border-bottom: 3px solid #4caf50;
+      padding-bottom: 0.4rem;
+      margin-bottom: 1rem;
+    }
+    /* Produk Unggulan: vertical list */
+    ul.produk-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul.produk-list li {
+      background: #e8f5e9;
+      margin-bottom: 0.7rem;
+      padding: 0.8rem 1rem;
+      border: 1px solid #c8e6c9;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    /* Gallery */
+    .gallery-images {
+      display: block;
+    }
+    .gallery-images img {
+      width: 100%;
+      max-width: 280px;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+      display: block;
+    }
+    /* For gallery container */
+    .gallery-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    /* Testimoni list simple */
+    .testimoni-item {
+      background: #fffde7;
+      border: 1px solid #f0f4c3;
+      padding: 1rem;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      font-style: italic;
+    }
+    .testimoni-author {
+      margin-top: 0.4rem;
+      font-weight: bold;
+      text-align: right;
+      color: #827717;
+    }
+    /* Contact info simple vertical */
+    #kontak p {
+      margin: 0.4rem 0;
+    }
+    /* Form sederhana */
+    form {
+      background: #e8f5e9;
+      border: 1px solid #c8e6c9;
+      padding: 1rem;
+      border-radius: 5px;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    form label {
+      display: block;
+      margin: 0.8rem 0 0.3rem 0;
+      font-weight: bold;
+    }
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid #a5d6a7;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    form button {
+      margin-top: 1rem;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      padding: 0.7rem;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #388e3c;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f1f8e9;
+      color: #558b2f;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      .gallery-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Budi Jaya - Toko Sembako
+  </header>
+  <nav>
+    <a href="#tentang-kami">Tentang Kami</a>
+    <a href="#produk-unggulan">Produk Unggulan</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#testimoni">Testimoni</a>
+    <a href="#kontak">Kontak</a>
+    <a href="#pemesanan">Pemesanan</a>
+  </nav>
+  <main>
+    <section id="tentang-kami">
+      <h2>Tentang Kami</h2>
+      <p>Budi Jaya adalah toko sembako yang telah melayani masyarakat selama lebih dari 10 tahun. Kami menyediakan berbagai kebutuhan pokok dengan kualitas terbaik dan harga bersaing. Kepuasan pelanggan adalah prioritas utama kami.</p>
+    </section>
+
+    <section id="produk-unggulan">
+      <h2>Produk Unggulan</h2>
+      <ul class="produk-list">
+        <li>Beras Premium 5kg</li>
+        <li>Minyak Goreng Kemasan</li>
+        <li>Gula Pasir</li>
+        <li>Telur Ayam Segar</li>
+        <li>Teh Celup Berkualitas</li>
+      </ul>
+    </section>
+
+    <section id="galeri">
+      <h2>Galeri</h2>
+      <div class="gallery-container">
+        <img src="https://images.unsplash.com/photo-1608219957361-513cbb9b1b5b?auto=format&fit=crop&w=320&q=80" alt="Beras" />
+        <img src="https://images.unsplash.com/photo-1590080877777-f76a37a7447f?auto=format&fit=crop&w=320&q=80" alt="Minyak Goreng" />
+        <img src="https://images.unsplash.com/photo-1571797763536-3b26a1416424?auto=format&fit=crop&w=320&q=80" alt="Gula Pasir" />
+        <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=320&q=80" alt="Telur Ayam" />
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=320&q=80" alt="Teh Celup" />
+      </div>
+    </section>
+
+    <section id="testimoni">
+      <h2>Testimoni</h2>
+      <div class="testimoni-item">
+        <p>Pelayanan cepat dan ramah, kualitas barang sangat memuaskan. Harga juga terjangkau.</p>
+        <div class="testimoni-author">- Ani S.</div>
+      </div>
+      <div class="testimoni-item">
+        <p>Saya selalu berbelanja di Budi Jaya karena lengkap dan kualitas barangnya bagus.</p>
+        <div class="testimoni-author">- Hendra W.</div>
+      </div>
+      <div class="testimoni-item">
+        <p>Toko sembako yang terpercaya, membuat saya tidak ragu lagi untuk datang berbelanja.</p>
+        <div class="testimoni-author">- Rini M.</div>
+      </div>
+    </section>
+
+    <section id="kontak">
+      <h2>Kontak</h2>
+      <p>Telepon: 0812-3456-7890</p>
+      <p>Email: budijaya@contohmail.com</p>
+      <p>Alamat: Jl. Raya Sembako No. 23, Jakarta</p>
+    </section>
+
+    <section id="pemesanan">
+      <h2>Pemesanan</h2>
+      <form id="form-pemesanan" novalidate>
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama" placeholder="Nama Anda" required />
+
+        <label for="telepon">No. Telepon / WhatsApp</label>
+        <input type="tel" id="telepon" name="telepon" placeholder="0812xxxxxxxx" required />
+
+        <label for="produk">Pilih Produk</label>
+        <select id="produk" name="produk" required>
+          <option value="" disabled selected>-- Pilih Produk --</option>
+          <option value="Beras Premium 5kg">Beras Premium 5kg</option>
+          <option value="Minyak Goreng Kemasan">Minyak Goreng Kemasan</option>
+          <option value="Gula Pasir">Gula Pasir</option>
+          <option value="Telur Ayam Segar">Telur Ayam Segar</option>
+          <option value="Teh Celup Berkualitas">Teh Celup Berkualitas</option>
+        </select>
+
+        <label for="jumlah">Jumlah</label>
+        <input type="number" id="jumlah" name="jumlah" min="1" value="1" required />
+
+        <label for="alamat">Alamat Pengiriman</label>
+        <textarea id="alamat" name="alamat" rows="3" placeholder="Alamat lengkap pengiriman" required></textarea>
+
+        <button type="submit">Kirim Pesanan</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    &copy; 2024 Budi Jaya - Toko Sembako. All rights reserved.
+  </footer>
+
+  <script>
+    const formPesanan = document.getElementById('form-pemesanan');
+    formPesanan.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      if (!formPesanan.checkValidity()) {
+        formPesanan.reportValidity();
+        return;
+      }
+
+      const data = {
+        nama: formPesanan.nama.value.trim(),
+        telepon: formPesanan.telepon.value.trim(),
+        produk: formPesanan.produk.value,
+        jumlah: formPesanan.jumlah.value,
+        alamat: formPesanan.alamat.value.trim()
+      };
+
+      alert(
+        "Terima kasih, " + data.nama + ". Pesanan Anda untuk " + data.jumlah + "x " + data.produk +
+        " akan segera kami proses.\nKontak: " + data.telepon +
+        "\nAlamat pengiriman: " + data.alamat
+      );
+
+      formPesanan.reset();
+    });
+  </script>
+</body>
+</html>
+
